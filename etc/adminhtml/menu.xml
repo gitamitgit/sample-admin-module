@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="A2bizz_Sample::base" title="A2bizz" module="A2bizz_Sample" sortOrder="10" resource="A2bizz_Sample::sample"/>
+        <add id="A2bizz_Sample::sample" title="Manage Sample" module="A2bizz_Sample" sortOrder="10" action="a2bizz_sample/sample" resource="A2bizz_Sample::sample" parent="A2bizz_Sample::base"/>
+        <!--        
+        <add id="A2bizz_Sample::hello_configuration" title="Configuration" module="A2bizz_Sample" sortOrder="99" parent="A2bizz_Sample::base" action="adminhtml/system_config/edit/section/sample" resource="A2bizz_Sample::sample_configuration"/>
+		-->
+    </menu>
+</config>
